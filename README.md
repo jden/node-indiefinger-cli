@@ -2,8 +2,11 @@
 cli tool for indiefinger, a webfinger superset
 
 ## usage
-```js
-var indiefingerCli = require('indiefinger-cli')
+```console
+$ indiefinger [user@]host
+
+        example:
+                indiefinger www.w3c.org
 ```
 
 
@@ -12,7 +15,7 @@ var indiefingerCli = require('indiefinger-cli')
 
 ## installation
 
-    $ npm install indiefinger-cli
+    $ npm install -g indiefinger-cli
 
 
 ## running the tests

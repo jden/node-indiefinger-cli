@@ -3,10 +3,19 @@
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "cli tool for indiefinger, a webfinger superset",
-  "keywords": ["webfinger", "finger", "indiefinger", "indieweb", "email"],
+  "keywords": [
+    "webfinger",
+    "finger",
+    "indiefinger",
+    "indieweb",
+    "email"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "bin": {
+    "indiefinger":"index.js"
   },
   "repository": "git@github.com:jden/node-indiefinger-cli.git",
   "license": "ISC",
@@ -14,5 +23,9 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.19.0"
+  },
+  "dependencies": {
+    "yargs": "^1.2.6",
+    "request": "^2.36.0"
   }
 }
